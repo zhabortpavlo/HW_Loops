@@ -20,7 +20,7 @@ for (let i = 10; i <= 100; i += 10) {
 
 // TASK 3 //
 
-let num = 90;
+let num = 100;
 let i = 1;
 
 while (i ** 2 <= num) {
@@ -30,7 +30,7 @@ while (i ** 2 <= num) {
 
 // TASK 4 //
 
-let number = 5;
+let number = 6;
 let isSimple = true;
 
 while (number % 2 === 0) {
@@ -46,11 +46,13 @@ if (isSimple && number > 1) {
 
 // TASK 5 //
 
-let number_1 = 242;
+let number_1 = 81;
 let result_1 = 1;
+let power = 1;
 
 while (result_1 < number_1 ) {
-    result_1 *= 3
+    result_1 = Math.pow(3,power);
+    power++
 }
 
 if (result_1 === number_1) {
