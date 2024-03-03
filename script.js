@@ -2,7 +2,7 @@
 
 let result = "(";
 for (let i = 20; i <= 30; i += 0.5) {
-  result += i.toFixed(1);
+  result += i;
   if (i < 30) {
     result += ",";
   }
